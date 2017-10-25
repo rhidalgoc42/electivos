@@ -1,0 +1,3 @@
+<?php
+echop' holas mundo'
+?>

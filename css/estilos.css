@@ -1,0 +1,94 @@
+html{height:100%;}
+body{font-family:"Segoe UI",Verdana;background-color:white;}
+#header{font-size:17px;line-height:26px;width:860px;margin:0 auto;margin-top:100px;padding:6px;border:1px solid #ddd;} 
+img{max-width:100%;height:auto;border:0;}
+.intro1{font-weight:bold;font-size:20px;border:1px solid #527e7f;padding:0px;margin:0px 0 0px 0;border-radius:8px;}
+.intro2{font-size:20px;border:1px solid #527e7f;padding:0px;margin:0px 0 0px 0;border-radius:8px;}
+.contenido2{width:860px;background-color:#527e7f;border-radius:8px;}
+@media screen and (max-width:479px) {
+#header{font-size:14px;line-height:22px;}
+}
+
+/*body{
+  background-color:#ffffff;
+}*/
+
+/*#login{
+ border: 2px solid #ef7f3f;	
+  background-color:#FFFFFF;
+  -moz-border-radius: 10%;
+  -webkit-border-radius: 10%;
+  border-radius: 10%;
+ }*/
+
+table{
+  margin:30px 30px;
+}
+
+td{
+font-size:16px;		
+/*font-weight:bold;*/
+padding:10px 0px;
+}
+
+.derecha{
+  text-align:right;
+  /*color:#003366;*/
+   /*font-weight:bold;*/
+}
+.izquierda{
+  text-align:left;
+}
+.centrado{
+  text-align:center;
+}
+input[type=text],input[type=password]{
+  border: 1px solid #527e7f;
+  /*background-color: #527e7f;*/
+  /*color:#FFFFFF;*/
+  width:150px;
+  margin-left:10px;
+  border-radius: 6%;
+}
+.blanco{
+ color:#FFFFFF;
+}
+
+/*.ubicacion{
+   position:absolute;
+   left:200px;
+   top: 80px;
+  -webkit-animation: moverlogo 4s; /* Chrome, Safari, Opera */
+ /* animation: moverlogo 4s;
+    -webkit-animation-iteration-count: infinite;
+	 animation-iteration-count: infinite;
+}*/
+
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes moverlogo {
+    0%   {left:200px;top: 80px;}
+    25%  {left:730px;top: 80px;}
+    50%  {left:730px;top: 470px;}
+    75%  {left:200px;top: 470px;}
+    100% {left:200px;top: 80px;}
+}
+
+/* Standard syntax */
+@keyframes moverlogo {
+    0%   {left:200px;top: 80px;}
+    25%  {left:730px;top: 80px;}
+    50%  {left:730px;top: 470px;}
+    75%  {left:200px;top: 470px;}
+    100% {left:200px;top: 80px;}
+}
+
+/*.contenido2{
+	margin-top: -10px;
+	margin-right: -10px;
+	margin-left: -10px;
+	width:100%;
+	height: 100%;
+	background-color:#527e7f;
+	border: 5px solid #527e7f;	
+}*/
